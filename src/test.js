@@ -208,26 +208,16 @@ body{background:#ffe600;min-height:100vh;}
     background:#9b000a;
     overflow: hidden;
   }
-  .mouth .down .yuan1 .yuan2{
-      width:200px;
-      height: 300px;
-      background: #ff485f;
-      position: absolute;
-      bottom:-155px;
-    left:50%;
-    margin-left:-100px;
-    border-radius:100px;
-  }
-
+  
 最后再加两个红扑扑的害羞小脸蛋一切就可以了
+
 .face{
   .face.left{
     transform: translateX(-180px);
     background: #ff0000;
     border-radius: 50%;
   }
-
-  .face.right{
+.face.right{
     transform: translateX(180px);
     background: #ff0000;
     border-radius: 50%;
@@ -236,7 +226,7 @@ body{background:#ffe600;min-height:100vh;}
   最后，我再祝你情人节快乐，
   明年今朝，鸳俦凤侣
   miss u
-  `
+`
 
 let n = 1
 let time = 100
@@ -280,7 +270,7 @@ btnNormal.onclick = ()=>{
 }
 btnFast.onclick = ()=>{
     pause()
-    time = 50
+    time = 0
     id = play()
     console.log('fast')
 }
